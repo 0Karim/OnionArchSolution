@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace OA.Repo.Interfaces
 {
-    interface IRepository<T> where T : BaseEntity
+    public interface IRepository<T> where T : BaseEntity
     {
         IEnumerable<T> GetAll();
 
