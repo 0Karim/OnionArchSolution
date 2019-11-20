@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OA.DomainEntities", "OA.DomainEntities\OA.DomainEntities.csproj", "{219C062B-42FA-48D9-933D-DFC7FCE53D50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OA.DomainEntities", "OA.DomainEntities\OA.DomainEntities.csproj", "{219C062B-42FA-48D9-933D-DFC7FCE53D50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OA.Repo", "OA.Repo\OA.Repo.csproj", "{E8862E77-F5AD-46A4-85E1-FA26AF0FBA20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OA.Repo", "OA.Repo\OA.Repo.csproj", "{E8862E77-F5AD-46A4-85E1-FA26AF0FBA20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OA.Service", "OA.Service\OA.Service.csproj", "{BE242A2D-BA7E-4D4A-BAF0-80FA32560747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OA.Service", "OA.Service\OA.Service.csproj", "{BE242A2D-BA7E-4D4A-BAF0-80FA32560747}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OA.UI", "OA.UI\OA.UI.csproj", "{65BFF140-07B5-41BA-AA09-17683E06BC7F}"
 EndProject
