@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OA.Repo", "OA.Repo\OA.Repo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OA.Service", "OA.Service\OA.Service.csproj", "{BE242A2D-BA7E-4D4A-BAF0-80FA32560747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OA.UI", "OA.UI\OA.UI.csproj", "{65BFF140-07B5-41BA-AA09-17683E06BC7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OA.UI", "OA.UI\OA.UI.csproj", "{65BFF140-07B5-41BA-AA09-17683E06BC7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OA.UIMVC", "OA.UIMVC\OA.UIMVC.csproj", "{20370F3A-B3E8-4D05-BC54-763C4346AB9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{65BFF140-07B5-41BA-AA09-17683E06BC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65BFF140-07B5-41BA-AA09-17683E06BC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65BFF140-07B5-41BA-AA09-17683E06BC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20370F3A-B3E8-4D05-BC54-763C4346AB9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20370F3A-B3E8-4D05-BC54-763C4346AB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20370F3A-B3E8-4D05-BC54-763C4346AB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20370F3A-B3E8-4D05-BC54-763C4346AB9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
