@@ -1,18 +1,12 @@
-﻿@using OA.UIMVC.Models
+﻿@model string
+@using OA.UIMVC.Models
 
 <form asp-action="DeleteUser" role="form">
-    @*@Html.Partial("_ModalHeader", new ModalHeader { Heading = "Delete User" })*@
-
-    <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Delete User</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
+    @Html.Partial("_ModalHeader", new ModalHeader { Heading = "Delete User" })
 
     <div class="modal-body form-horizontal">
         Are you want to delete @Model?
     </div>
     @*@Html.Partial("_ModalFooter", new ModalFooter { SubmitButtonText = "Delete" })*@
-    @await Html.PartialAsync("_ModalFooter")
+    @await Html.PartialAsync("_ModalFooter" , new ModalFooter { ButtonName="Delete" })
 </form>

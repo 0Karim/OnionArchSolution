@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<UserViewModel>
-    @using OA.UIMVC.Models
+
     @*@using OA.Web.Code*@
 
     @{
@@ -49,15 +49,15 @@
         </div>
     </div>
 
-    @*@Html.Partial("_Modal", new BootstrapModel { ID = "modal-action-user", AreaLabeledId = "modal-action-user-label", Size = ModalSize.Large })*@
+    @Html.Partial("_Modal", new BootstrapModel { ID = "modal-action-user", AreaLabeledId = "modal-action-user-label", Size = "ModalSize.Large" })
 
 
-    <div class="modal fade" id="modal-action-user" tabindex="-1" role="dialog" aria-labelledby="modal-action-user-label" aria-hidden="true">
+    @*<div class="modal fade" id="modal-action-user" tabindex="-1" role="dialog" aria-labelledby="modal-action-user-label" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             </div>
         </div>
-    </div>
+    </div>*@
 
 
 @section scripts

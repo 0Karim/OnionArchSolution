@@ -2,15 +2,7 @@
 @using OA.UIMVC.Models
 
 <form asp-action="EditUser" role="form">
-    @*@await Html.PartialAsync("_ModalHeader", new ModalHeader { Heading = "Edit User" })*@
-
-    <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Edit User</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-
+    @await Html.PartialAsync("_ModalHeader", new ModalHeader { Heading = "Edit User" })
     <div class="modal-body form-horizontal">
         <div class="row">
             <input asp-for="Id" />
@@ -42,5 +34,5 @@
 
         </div>
     </div>
-    @await Html.PartialAsync("_ModalFooter")
+    @await Html.PartialAsync("_ModalFooter" , new ModalFooter { ButtonName = "Save" })
 </form>  
